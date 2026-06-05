@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>App Support & Policies</title>
+  <!-- Tailwind CSSを使用してモダンなデザインにしています -->
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50 flex flex-col min-h-screen font-sans text-gray-800">
+
+  <!-- ヘッダー -->
+  <header class="bg-white shadow-sm py-6">
+    <div class="max-w-4xl mx-auto px-4 flex justify-between items-center">
+      <h1 class="text-2xl font-bold text-gray-900">Your App Name</h1>
+      <!-- アプリストアなどのリンクがあればここに追加 -->
+      <!-- <a href="#" class="text-blue-600 hover:underline">Contact Support</a> -->
+    </div>
+  </header>
+
+  <!-- メインコンテンツ -->
+  <main class="flex-grow max-w-4xl mx-auto px-4 py-16 w-full">
+    <div class="bg-white rounded-xl shadow-sm border border-gray-100 p-8 md:p-12 text-center">
+      <h2 class="text-3xl font-bold text-gray-900 mb-4">Legal & Policies</h2>
+      <p class="text-gray-600 mb-10 max-w-lg mx-auto">
+        Please review our Privacy Policy and Terms of Service to understand how we handle your data and the rules for using our services.
+      </p>
+      
+      <div class="flex flex-col sm:flex-row justify-center gap-4">
+        <!-- プライバシーポリシーへのリンク (privacy.html を別途作成するかURLを変更してください) -->
+        <a href="privacypolicy.md" class="px-8 py-3 bg-blue-600 text-white font-semibold rounded-lg hover:bg-blue-700 transition shadow-sm">
+          Privacy Policy
+        </a>
+        <!-- 利用規約へのリンク (terms.html を別途作成するかURLを変更してください) -->
+        <a href="terms.html" class="px-8 py-3 bg-white text-gray-700 font-semibold rounded-lg border border-gray-300 hover:bg-gray-50 transition shadow-sm">
+          Terms of Service
+        </a>
+      </div>
+    </div>
+  </main>
+
+  <!-- フッター -->
+  <footer class="bg-gray-900 text-gray-400 py-8 text-center text-sm">
+    <div class="max-w-4xl mx-auto px-4">
+      <p>&copy; 2026 Your Name or Company. All rights reserved.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
